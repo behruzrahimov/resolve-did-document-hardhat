@@ -210,8 +210,5 @@ describe("DID Anchor Test", function () {
     const didDocHash1 = await anchor.dids(didHash1);
     const didDocHash2 = await anchor.dids(didHash2);
     const didDocHash3 = await anchor.dids(didHash3);
-    console.log(didDocHash1);
-    console.log(didDocHash2);
-    console.log(didDocHash3);
   });
 });
